@@ -1,0 +1,5 @@
+build the image :
+	[sudo] docker build -t a-tag .
+
+run a container :
+	[sudo] docker run -p 8000:8000 -d go-docker-test
